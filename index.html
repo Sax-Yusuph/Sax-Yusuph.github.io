@@ -2,11 +2,13 @@
 <html lang="en">
   <head>
     <title>Sax-Yusuph</title>
-    <meta name="keywords" content="" />
-    <meta name="description" content="" />
+    <meta name="keywords" content="shamsondeen yusuf,shamsondeen,sax-yusuph">
+    <meta name="description" content="I am a fullstack web developer that builds opensource projects with javascript">
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="sax-yusuph">
+    <meta name="theme-color" content="#2cbfd6">
     <!-- 
 OneTel Template
 http://www.templatemo.com/tm-468-onetel
@@ -24,6 +26,7 @@ http://www.templatemo.com/tm-468-onetel
       type="text/css"
     />
     <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700;800&family=Barlow:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;1,100;1,200&display=swap" rel="stylesheet">
+  <title>Sax-yusuph</title>
   </head>
   <body>
     <!-- navigation -->
@@ -65,7 +68,7 @@ http://www.templatemo.com/tm-468-onetel
           <div class="col-md-5 col-sm-3"></div>
           <div class="col-md-7 col-sm-9">
             <h3 class="text-shadow">Hi, i am Sax</h3>
-            <h1 class="text-shadow">I am a software Developer, and an awesome cloud Engineer</h1>
+            <h1 class="text-shadow">I am an awesome software Developer from Nigeria</h1>
           </div>
         </div>
       </div>
@@ -334,13 +337,13 @@ http://www.templatemo.com/tm-468-onetel
 					<div class="footer-tittle">
 					  <div class="footer-pera">
 						<p class="info1">
-						  Planning on something wonderful? i will be happy to be part of
+						  Planning on something wonderful? i would be super happy to be part of
 						  that journey. Feel to reach me on
 						</p>
 					  </div>
 					</div>
 					<div class="footer-number">
-					  <h4><span>+234 </span> <span class="text-secondary"> 701135 9405</span></h4>
+					  <h4><span>+234 </span><span class="text-secondary">701135 9405</span></h4>
 					  <p>yusuphshamsondeen@gmail.com</p>
 					</div>
 				  </div>
@@ -354,7 +357,7 @@ http://www.templatemo.com/tm-468-onetel
 					</div>
 					<div class="footer-cap text-dark">
 					  <span>Lagos</span>
-					  <p>1 Sanusi Adegoke Street, Agric-Ikorodu, Lagos, NY 10011</p>
+					  <p>1 Sanusi Adegoke Street, Agric-Ikorodu, Lagos.</p>
 					</div>
 					<div class="footer-cap text-dark">
 					  <span>Github</span>
@@ -363,8 +366,8 @@ http://www.templatemo.com/tm-468-onetel
 					<ul class="social-icons">
 						<li><a href="https://github.com/sax-yusuph" class="fab fa-github"></a></li>
 						<li><a href="https://www.linkedin.com/in/yusuf-shamsondeen-8953a31a0/" class="fab fa-linkedin"></a></li>
-						<li><a href="https://stackoverflow.com/users/13049854/sax" class="fab fa-stack-overflow"></a></li>
-						<li><a href="https://dev.to/saxyusuph" class="fab fa-dev"></a></li>
+						<!-- <li><a href="https://stackoverflow.com/users/13049854/sax" class="fab fa-stack-overflow"></a></li>
+						<li><a href="https://dev.to/saxyusuph" class="fab fa-dev"></a></li> -->
 						<li><a href="mailto:yusuphshamsondeen@gmail.com" class="far fa-envelope"></a></li>
 					  </ul>
 				  </div>
@@ -377,21 +380,21 @@ http://www.templatemo.com/tm-468-onetel
 				   <div class="footer-tittle">
 					 <h1 class=" mb-30">Drop a Message</h1>
 				   </div>
-				   <form action="mailto:yusuphshamsondeen@gmail.com" method="post" role="form">
-					<div class="col-md-6 col-sm-6 pl-0">
-						<label for="name">NAME</label>
-						<input name="name" type="text" class="form-control" id="name">
-					</div>
-					<div class="col-md-6 col-sm-6 pl-0">
-					  <label for="email">EMAIL</label>
-						<input name="email" type="email" class="form-control" id="email">
-					</div>
-					<div class="col-md-12 col-sm-12 pl-0">
-						<label for="message">MESSAGE</label>
-						<textarea name="message" rows="2" class="form-control" id="message"></textarea>
-						<button type="submit" name="submit" class="btn-alt btn-default btn-fullwidth">SEND</button>
-					</div>
-				</form>
+				   <form id="contact-form">
+              <div class="col-md-6 col-sm-6 pl-0">
+                <label for="name">NAME</label>
+                <input name="name" type="text" class="form-control" id="name">
+              </div>
+              <div class="col-md-6 col-sm-6 pl-0">
+                <label for="email">EMAIL</label>
+                <input name="email" type="email" class="form-control" id="email">
+              </div>
+              <div class="col-md-12 col-sm-12 pl-0">
+                <label for="message">MESSAGE</label>
+                <textarea name="message" rows="2" class="form-control" id="message"></textarea>
+                <button type="submit" name="submit" class="btn-alt btn-default btn-fullwidth">SEND</button>
+              </div>
+          </form>
 				 </div>
 			 </div>
 		  </div>
@@ -420,6 +423,26 @@ http://www.templatemo.com/tm-468-onetel
     <script src="js/bootstrap.min.js"></script>
     <script src="js/nivo-lightbox.min.js"></script>
     <script src="js/custom.js"></script>
-    <script src="js/canvas.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
+    <script type="text/javascript">
+      (function(){
+          emailjs.init("user_W5607IQF1PnTvbXZA69bB");
+      })();
+    </script>
+    <script type="text/javascript">
+      window.onload = function() {
+        const form = document.getElementById('contact-form');
+          form.addEventListener('submit', function(event) {
+              event.preventDefault();
+              // generate the contact number value
+              // this.contact_number.value = Math.random() * 100000 | 0;
+              emailjs.sendForm('gmail', 'sax_yusuph', this);
+              alert("message sent successfully");
+              form.querySelector("input[name='name']").value = ""
+              form.querySelector("input[name='email']").value = ""
+              form.querySelector("textarea[name='message']").value = ""
+          });
+      }
+    </script>
   </body>
 </html>

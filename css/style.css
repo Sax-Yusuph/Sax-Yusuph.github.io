@@ -591,6 +591,7 @@ footer a:hover {
 .footer-number h4 {
   /* color: #db3fb9; */
   font-size: 30px;
+  font-family: 'fira mono', monospace ;
   font-weight: 500;
   text-transform: capitalize;
 }
@@ -600,13 +601,14 @@ footer a:hover {
 }
 
 .footer-number p {
-  color: #fff;
+  color: #fff !important;
 }
+
 
 .footer-pera .info1 {
   line-height: 1.8;
   margin-bottom: 10px;
-  color: #bdbdbd;
+  color: #fff !important;
 }
 
 .footer-tittle h4 {
@@ -635,6 +637,13 @@ footer a:hover {
 }
 .single-footer-caption .footer-logo {
   margin-bottom: 30px;
+}
+.single-footer-caption .footer-logo {
+  margin-bottom: 30px;
+}
+
+.footer-cap p{
+  color: #fff !important;
 }
 .insta-feed {
   padding-top: 5px;
@@ -777,6 +786,19 @@ hr {
     margin-top: 8px;
   }
 }
+
+@media (max-width: 378px) {
+  .flip-card {
+    height: 710px;
+  }
+}
+
+@media (max-width: 328px) {
+  .flip-card {
+    height: 800px;
+    /* margin-left: 30px; */
+  }
+}
 .flip-card .inner {
   position: relative;
   width: 100%;
@@ -810,7 +832,7 @@ hr {
 }
 @media (max-width: 1000px) {
   .flip-card .inner .back{
-    padding-top: 50px;
+    /* padding-top: 50px; */
   }
 }
 
