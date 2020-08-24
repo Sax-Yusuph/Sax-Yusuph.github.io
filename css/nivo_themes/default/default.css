@@ -47,10 +47,8 @@
 .nivo-lightbox-theme-default .nivo-lightbox-close:hover { opacity: 1; }
 
 .nivo-lightbox-theme-default .nivo-lightbox-title-wrap { 
-	bottom: -7%; 
 	padding: 5px 20px 10px !important;
 	background-color: #f3f7f9;
-	border-radius: 8px;
 	min-height: 100px;
 }
 .nivo-lightbox-theme-default .nivo-lightbox-title, .nivo-lightbox-header-title {

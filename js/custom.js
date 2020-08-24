@@ -1,6 +1,7 @@
 
 $(".toggler").on("click", function() {
   $(".flip-card").toggleClass("flip");
+  $(".about-des .info1").toggleClass("d-0");
 });
 
 
