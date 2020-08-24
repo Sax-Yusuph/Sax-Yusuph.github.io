@@ -830,11 +830,6 @@ hr {
   background-color: #0f2d44;
   background-image: url("../images/bg01.png");
 }
-@media (max-width: 1000px) {
-  .flip-card .inner .back{
-    /* padding-top: 50px; */
-  }
-}
 
 .flip-card .inner .back h2 {
   text-align: center;
