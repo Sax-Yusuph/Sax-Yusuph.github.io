@@ -250,6 +250,10 @@ img {
   background-image: url("../images/bg01.png");
 }
 
+body{
+  color:#9cdaf3;
+}
+
 /* about section */
 #about-header {
   background: url("../images/amazing-animal-beautiful-beautifull.jpg") no-repeat;
